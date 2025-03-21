@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <ItemGroup>
+        <ProjectReference Include="..\TheLsmArchive.Infrastructure\TheLsmArchive.Infrastructure.csproj" />
+        <ProjectReference Include="..\TheLsmArchive.Models\TheLsmArchive.Models.csproj" />
+    </ItemGroup>
+    
+</Project>
