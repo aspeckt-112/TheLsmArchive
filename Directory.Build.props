@@ -1,0 +1,20 @@
+<Project>
+    
+    <PropertyGroup>
+        <SolutionDir>$(MSBuildThisFileDirectory)</SolutionDir>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RepositoryType>git</RepositoryType>
+        <VersionPrefix>1.0.0.0</VersionPrefix>
+        <LangVersion>latestMajor</LangVersion>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="$(MSBuildProjectName.EndsWith('.Tests'))">
+    </PropertyGroup>
+    
+    <ItemGroup Condition="$(MSBuildProjectName.EndsWith('.Tests'))">
+    </ItemGroup>
+    
+</Project>

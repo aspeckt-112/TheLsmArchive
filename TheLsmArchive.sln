@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3A177CD0-5040-4909-B700-CF9A24901098}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F563F814-4944-4BD9-BD10-B3D682770A68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{1AF732DA-4D48-4811-8022-F3549F434E6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD842ED8-C234-452D-A665-83CBC877CFB7}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{1D526925-A85B-4B18-BC0D-B9E6F213A330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLsmArchive.Api", "src\TheLsmArchive.Api\TheLsmArchive.Api.csproj", "{035AE461-2549-442E-8A32-31CE0E903302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLsmArchive.Client", "src\TheLsmArchive.Client\TheLsmArchive.Client.csproj", "{ABBC5F5D-DA40-430C-BB05-1C646B08A6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLsmArchive.Infrastructure", "src\TheLsmArchive.Infrastructure\TheLsmArchive.Infrastructure.csproj", "{87E8EDE1-65FB-487B-A53B-5D44B3526B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLsmArchive.Services", "src\TheLsmArchive.Services\TheLsmArchive.Services.csproj", "{47B6E9F5-C907-4384-96CA-C4500FDA0114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLsmArchive.Migrations", "src\TheLsmArchive.Migrations\TheLsmArchive.Migrations.csproj", "{8D746A82-4AC9-44FD-B759-F7F86BDFB597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLsmArchive.HttpClient", "src\TheLsmArchive.HttpClient\TheLsmArchive.HttpClient.csproj", "{D5712AA6-FC83-4AE5-99B4-7C70E9D0C26F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLsmArchive.Models", "src\TheLsmArchive.Models\TheLsmArchive.Models.csproj", "{1395E338-12A7-4943-B427-5E61396A4FC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{035AE461-2549-442E-8A32-31CE0E903302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035AE461-2549-442E-8A32-31CE0E903302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035AE461-2549-442E-8A32-31CE0E903302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035AE461-2549-442E-8A32-31CE0E903302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBC5F5D-DA40-430C-BB05-1C646B08A6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBC5F5D-DA40-430C-BB05-1C646B08A6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBC5F5D-DA40-430C-BB05-1C646B08A6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBC5F5D-DA40-430C-BB05-1C646B08A6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E8EDE1-65FB-487B-A53B-5D44B3526B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E8EDE1-65FB-487B-A53B-5D44B3526B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E8EDE1-65FB-487B-A53B-5D44B3526B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E8EDE1-65FB-487B-A53B-5D44B3526B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B6E9F5-C907-4384-96CA-C4500FDA0114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B6E9F5-C907-4384-96CA-C4500FDA0114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B6E9F5-C907-4384-96CA-C4500FDA0114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B6E9F5-C907-4384-96CA-C4500FDA0114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D746A82-4AC9-44FD-B759-F7F86BDFB597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D746A82-4AC9-44FD-B759-F7F86BDFB597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D746A82-4AC9-44FD-B759-F7F86BDFB597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D746A82-4AC9-44FD-B759-F7F86BDFB597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5712AA6-FC83-4AE5-99B4-7C70E9D0C26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5712AA6-FC83-4AE5-99B4-7C70E9D0C26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5712AA6-FC83-4AE5-99B4-7C70E9D0C26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5712AA6-FC83-4AE5-99B4-7C70E9D0C26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1395E338-12A7-4943-B427-5E61396A4FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1395E338-12A7-4943-B427-5E61396A4FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1395E338-12A7-4943-B427-5E61396A4FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1395E338-12A7-4943-B427-5E61396A4FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{035AE461-2549-442E-8A32-31CE0E903302} = {3A177CD0-5040-4909-B700-CF9A24901098}
+		{ABBC5F5D-DA40-430C-BB05-1C646B08A6A7} = {3A177CD0-5040-4909-B700-CF9A24901098}
+		{87E8EDE1-65FB-487B-A53B-5D44B3526B42} = {3A177CD0-5040-4909-B700-CF9A24901098}
+		{47B6E9F5-C907-4384-96CA-C4500FDA0114} = {3A177CD0-5040-4909-B700-CF9A24901098}
+		{8D746A82-4AC9-44FD-B759-F7F86BDFB597} = {3A177CD0-5040-4909-B700-CF9A24901098}
+		{D5712AA6-FC83-4AE5-99B4-7C70E9D0C26F} = {3A177CD0-5040-4909-B700-CF9A24901098}
+		{1395E338-12A7-4943-B427-5E61396A4FC9} = {3A177CD0-5040-4909-B700-CF9A24901098}
+	EndGlobalSection
+EndGlobal
